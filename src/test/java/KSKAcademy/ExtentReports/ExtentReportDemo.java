@@ -45,6 +45,8 @@ public class ExtentReportDemo {
 		driver.close();
 		test.fail("Results do not match");
 		extent.flush();
+		
+		System.out.println("everytime");
 	}
 
 }
